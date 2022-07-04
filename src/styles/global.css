@@ -1,0 +1,16 @@
+@media print {
+  @page {
+    size: A4 landscape;
+  }
+  .noPrint {
+    display: none;
+  }
+
+  .Print {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+}
